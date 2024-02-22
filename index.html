@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="display_menu">
+        <div class="overlay">
+            <a class="closebtn close_menu">&times;</a>
+        </div>
+        <div class="overlay_content">
+            <a class="back_port" href="#work">Portfolio</a>
+            <a class="back_about" href="#about">About</a>
+            <a class="back_con" href="#contact" ">Contact</a>
+        </div>
+    </div>
+
+    <div id="display_work "></div>
+
+    <section id="main ">
+        <section>
+            <header class="toolbar ">
+                <div>
+                    <a href="# "><img class="logo " src="images/monologo.png " alt="logo "></a>
+                </div>
+                <nav class="navigation ">
+                    <a href="#work ">Portfolio</a>
+                    <a href="#about ">About</a>
+                    <a href="#contact ">Contact</a>
+                </nav>
+                <nav class="menu ">
+                    <span><img src="images/Union.png " alt="Menu "></span>
+                </nav>
+            </header>
+            <section class="headline " id="head ">
+                <h1>Deepak M N <br>Glad to see you!</h1>
+                <p class="resume ">a dedicated computer science student passionate about leveraging technology to solve real-world problems. Currently pursuing my undergraduate B.E in Computer Science at Ballari Institute of Technology and Management, I am
+                    eager to contribute my skills and knowledge to the ever-evolving field of technology.</p>
+                <h4 class="connect ">LET'S CONNECT</h4>
+                <div>
+                    <ul class="personalMedia ">
+                        <li><a class="media " href="https://twitter.com/Santiag24209785 "><img src="images/twitter.png " alt="twitter "></a></li>
+                        <li><a class="media " href="https://www.linkedin.com/in/santiago-munoz-0b2b1a260/ "><img src="images/linkedin.png " alt="linkedin "></a></li>
+                        <li><a class="media " href="https://github.com/smunoz1988 "><img src="images/github.png " alt="Github "></a></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        <section class="works " id="work "></section>
+
+        <section class="aboutMe " id="about ">
+            <div class="test ">
+                <h2>About <br>Myself</h2>
+                <p class="resume ">a dedicated computer science student passionate about leveraging technology to solve real-world problems. Currently pursuing my undergraduate B.E in Computer Science at Ballari Institute of Technology and Management, I am
+                    eager to contribute my skills and knowledge to the ever-evolving field of technology.</p>
+                <h4 class="connect ">LET'S CONNECT</h4>
+                <div class="social ">
+                    <ul class="personalMedia ">
+                        <li><a class="media " href="https://twitter.com/Santiag24209785 "><img src="images/twitter.png " alt="twitter "></a></li>
+                        <li><a class="media " href="https://www.linkedin.com/in/deepak-m-n-49b967212/ "><img src="images/linkedin.png " alt="linkedin "></a></li>
+                        <li><a class="media " href="https://github.com/smunoz1988 "><img src="images/github.png " alt="Github "></a></li>
+                    </ul>
+                </div>
+                <button class="resumeButton " type="button ">Get my resume
+                   <a href="https://github.com/smunoz1988"></a>
+                </button>
+            </div>
+            <div class="test1 ">
+                <div class="categories ">
+                    <div class="container ">
+                        <p class="atribute ">Languages</p>
+                        <img class="arrow " src="images/arrowD.png ">
+                    </div>
+                    <ul class="languaje ">
+                        <li class="js "><img class="lang " src="images/js.png " alt="JavaScript "><p>JavaScript</p></li>
+                        <li class="html "><img class="lang " src="images/html.png " alt="html "><p>HTML</p></li>
+                        <li class="css "><img class="lang " src="images/css.png " alt="CSS "><p>CSS</p></li>
+                    </ul>
+                
+                    <hr>
+                    <div class="container ">
+                        <p class="atribute ">Skills</p>
+                        <img class="arrow " src="images/arrowD.png ">
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <div id="class_background ">
+            <section class="contactMe " id="contact_back ">
+                <h2 id="contact ">Contact me</h2>
+                <p class="contact_info ">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+                I'd love to help with it</p>
+                <form id="contactForm " action="https://formspree.io/f/xqkoqyqb " method="post ">
+                    <input required type="text " name="user_name " maxlength="30 " placeholder="Your name " class="form_info dataEnter ">
+                    <input id="mail " required type="mail " name="user_mail " placeholder="Your email " class="form_info dataEnter ">
+                    <textarea required name="user_message " id="user_message " maxlength="500 " placeholder="Write your message here... " class="dataEnter "></textarea>
+                    <button id="submitButton " class="resumeButton " type="submit ">Get in touch</button>
+                </form>
+                <small id="errorMessage "></small>
+            </section>
+        </div>
+    </section>
+    <script src="index.js "></script>
+</body>
+</html>
